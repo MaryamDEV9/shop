@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header bg-orange-300 py-4">
+        <div class="container mx-auto ps-30 pe-3 flex items-center justify-between px-4">
+            <h1>AMAZON</h1>
+            <ul class="xl:flex lg:flex hidden md:flex gap-4 " id="navMenu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Account</a></li>
+
+            </ul>
+            <div class="header-icons xl:flex lg:flex hidden md:flex gap-4">
+                <button type="button" class="border border-black/10 rounded-full px-4 py-2 uppercase text-xs cursor-pointer hover:bg-orange-700 hover:text-white duration-300  ">Contact us</button>
+                <div class="icon-item w-10 h-10 rounded-full border border-black-500/10 flex items-center justify-center hover:bg-orange-700 hover:text-white duration-300 cursor-pointer">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-user "><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" /><path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" /></svg>
+                </div>
+            </div>
+            <div class="header-toggle w-10 h-10 rounded-full border border-black/10 xl:hidden lg:hidden flex md:hidden items-center justify-center hover:bg-amber-600 hover:text-white" id="menuToggle">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M4 6l16 0" /><path d="M4 12l16 0" /><path d="M4 18l16 0" /></svg>
+            </div>
+
+        </div>
+    </header>
+    <div class="product-shop mx-auto xl:p-20 lg:p-17 md:p-13 p-3">
+        <div class="container mx-auto grid xl:grid-cols-4 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 gap-8 pp-4 p-15">
+            <div class="product-card border border-black/20 h-[500px] w-60 rounded-3xl p-4  ">
+                <div class="relative">
+                    <div class="img-label px-4 py-1.5 bg-orange-400 rounded-full w-fit text-white absolute top-1 left-28">
+                        15% off
+                    </div>
+                    <div class="product-img h-40 w-50  ">
+                        <img src="Product+Showcase-1.jpg" alt="" class="rounded-3xl object-center object-cover w-full h-full ">
+                    </div>
+                </div>
+                <div class="product-tittle mt-[70px] text-black hover:text-orange-600">
+                    <h3>ADDIDES SHOSE</h3>
+                </div>
+                <div class="product-des mt-5 text-gray-600 line-clamp-4" >
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero in dicta voluptates laboriosam qui harum nam iure tempora eius deleniti </p>
+                </div>
+                <button type="button" class="mt-4 bg-orange-600 p-3 rounded-3xl text-white w-full cursor-pointer hover:bg-amber-700 duration-1000">Buy Now</button>
+            </div>
+            <div class="product-card border border-black/20 h-[500px] w-60 rounded-3xl p-5  ">
+                <div class="relative">
+                    <div class="img-label px-4 py-1.5 bg-orange-400 rounded-full w-fit text-white absolute top-1 left-28">
+                        15% off
+                    </div>
+                    <div class="product-img h-40 w-50  ">
+                        <img src="images (1).jpeg" alt="" class="rounded-3xl object-center object-cover w-full h-full ">
+                    </div>
+                </div>
+                <div class="product-tittle mt-[70px] text-black hover:text-orange-600">
+                    <h3>CAMIRA</h3>
+                </div>
+                <div class="product-des mt-5 text-gray-600 line-clamp-4" >
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero in dicta voluptates laboriosam qui harum nam iure tempora eius deleniti </p>
+                </div>
+                <button type="button" class="mt-4 bg-orange-600 p-3 rounded-3xl text-white w-full cursor-pointer hover:bg-amber-700 duration-1000">Buy Now</button>
+            </div>
+            <div class="product-card border border-black/20 h-[500px] w-60 rounded-3xl p-5  ">
+                <div class="relative">
+                    <div class="img-label px-4 py-1.5 bg-orange-400 rounded-full w-fit text-white absolute top-1 left-28">
+                        15% off
+                    </div>
+                    <div class="product-img h-40 w-50  ">
+                        <img src="images.jpeg" alt="" class="rounded-3xl object-center object-cover w-full h-full ">
+                    </div>
+                </div>
+                <div class="product-tittle mt-[70px] text-black hover:text-orange-600">
+                    <h3>Hand bag</h3>
+                </div>
+                <div class="product-des mt-5 text-gray-600 line-clamp-4" >
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero in dicta voluptates laboriosam qui harum nam iure tempora eius deleniti </p>
+                </div>
+                <button type="button" class="mt-4 bg-orange-600 p-3 rounded-3xl text-white w-full cursor-pointer hover:bg-amber-700 duration-1000">Buy Now</button>
+            </div>
+            <div class="product-card border border-black/20 h-[500px] w-60 rounded-3xl p-5  ">
+                <div class="relative">
+                    <div class="img-label px-4 py-1.5 bg-orange-400 rounded-full w-fit text-white absolute top-1 left-28">
+                        15% off
+                    </div>
+                    <div class="product-img h-40 w-50  ">
+                        <img src="skin-oil-droppers-assortment-with-wooden-pieces_23-2148761386.avif" alt="" class="rounded-3xl object-center object-cover w-full h-full ">
+                    </div>
+                </div>
+                <div class="product-tittle mt-[70px] text-black hover:text-orange-600">
+                    <h3>Skin oil</h3>
+                </div>
+                <div class="product-des mt-5 text-gray-600 line-clamp-4" >
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero in dicta voluptates laboriosam qui harum nam iure tempora eius deleniti </p>
+                </div>
+                <button type="button" class="mt-4 bg-orange-600 p-3 rounded-3xl text-white w-full cursor-pointer hover:bg-amber-700 duration-1000">Buy Now</button>
+            </div>
+            <div class="product-card border border-black/20 h-[500px] w-60 rounded-3xl p-5  ">
+                <div class="relative">
+                    <div class="img-label px-4 py-1.5 bg-orange-400 rounded-full w-fit text-white absolute top-1 left-28">
+                        15% off
+                    </div>
+                    <div class="product-img h-40 w-50  ">
+                        <img src="skincare-product-sale-poster-template_597316-411.avif" alt="" class="rounded-3xl object-center object-cover w-full h-full ">
+                    </div>
+                </div>
+                <div class="product-tittle mt-[70px] text-black hover:text-orange-600">
+                    <h3>Skin Care</h3>
+                </div>
+                <div class="product-des mt-5 text-gray-600 line-clamp-4" >
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero in dicta voluptates laboriosam qui harum nam iure tempora eius deleniti </p>
+                </div>
+                <button type="button" class="mt-4 bg-orange-600 p-3 rounded-3xl text-white w-full cursor-pointer hover:bg-amber-700 duration-1000">Buy Now</button>
+            </div>
+            <div class="product-card border border-black/20 h-[500px] w-60 rounded-3xl p-5  ">
+                <div class="relative">
+                    <div class="img-label px-4 py-1.5 bg-orange-400 rounded-full w-fit text-white absolute top-1 left-28">
+                        15% off
+                    </div>
+                    <div class="product-img h-40 w-50  ">
+                        <img src="wrist-watches.jpg" alt="" class="rounded-3xl object-center object-cover w-full h-full ">
+                    </div>
+                </div>
+                <div class="product-tittle mt-[70px] text-black hover:text-orange-600">
+                    <h3>Watch</h3>
+                </div>
+                <div class="product-des mt-5 text-gray-600 line-clamp-4" >
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero in dicta voluptates laboriosam qui harum nam iure tempora eius deleniti </p>
+                </div>
+                <button type="button" class="mt-4 bg-orange-600 p-3 rounded-3xl text-white w-full cursor-pointer hover:bg-amber-700 duration-1000">Buy Now</button>
+            </div>
+            <div class="product-card border border-black/20 h-[500px] w-60 rounded-3xl p-5  ">
+                <div class="relative">
+                    <div class="img-label px-4 py-1.5 bg-orange-400 rounded-full w-fit text-white absolute top-1 left-28">
+                        15% off
+                    </div>
+                    <div class="product-img h-40 w-50  ">
+                        <img src="premium_photo-1679913792906-13ccc5c84d44.jpeg" alt="" class="rounded-3xl object-center object-cover w-full h-full ">
+                    </div>
+                </div>
+                <div class="product-tittle mt-[70px] text-black hover:text-orange-600">
+                    <h3>Head Phone</h3>
+                </div>
+                <div class="product-des mt-5 text-gray-600 line-clamp-4" >
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero in dicta voluptates laboriosam qui harum nam iure tempora eius deleniti </p>
+                </div>
+                <button type="button" class="mt-4 bg-orange-600 p-3 rounded-3xl text-white w-full cursor-pointer hover:bg-amber-700 duration-1000">Buy Now</button>
+            </div>
+            <div class="product-card border border-black/20 h-[500px] w-60 rounded-3xl p-5  ">
+                <div class="relative">
+                    <div class="img-label px-4 py-1.5 bg-orange-400 rounded-full w-fit text-white absolute top-1 left-28">
+                        15% off
+                    </div>
+                    <div class="product-img h-40 w-50  ">
+                        <img src="images (2).jpeg" alt="" class="rounded-3xl object-center object-cover w-full h-full ">
+                    </div>
+                </div>
+                <div class="product-tittle mt-[70px] text-black hover:text-orange-600">
+                    <h3>Sun Care</h3>
+                </div>
+                <div class="product-des mt-5 text-gray-600 line-clamp-4" >
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero in dicta voluptates laboriosam qui harum nam iure tempora eius deleniti </p>
+                </div>
+                <button type="button" class="mt-4 bg-orange-600 p-3 rounded-3xl text-white w-full cursor-pointer hover:bg-amber-700 duration-1000">Buy Now</button>
+            </div>
+            <div class="product-card border border-black/20 h-[500px] w-60 rounded-3xl p-5  ">
+                <div class="relative">
+                    <div class="img-label px-4 py-1.5 bg-orange-400 rounded-full w-fit text-white absolute top-1 left-28">
+                        15% off
+                    </div>
+                    <div class="product-img h-40 w-50  ">
+                        <img src="photo-1542291026-7eec264c27ff.jpeg" alt="" class="rounded-3xl object-center object-cover w-full h-full ">
+                    </div>
+                </div>
+                <div class="product-tittle mt-[70px] text-black hover:text-orange-600">
+                    <h3>Red Shose</h3>
+                </div>
+                <div class="product-des mt-5 text-gray-600 line-clamp-4" >
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero in dicta voluptates laboriosam qui harum nam iure tempora eius deleniti </p>
+                </div>
+                <button type="button" class="mt-4 bg-orange-600 p-3 rounded-3xl text-white w-full cursor-pointer hover:bg-amber-700 duration-1000">Buy Now</button>
+            </div>
+           
+        </div>
+    </div>
+    <footer class="bg-orange-500 p-8 ">
+        <div class="container text-center ">
+            <p>&copy;2025 <span class="text-orange-200">maryam Alsafty Programmer</span> All rights reversed</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
